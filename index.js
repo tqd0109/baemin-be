@@ -1,16 +1,15 @@
 // js ->
 // const express = require('express')
-import express from 'express'
+import express from "express";
 // import { helloHandler } from './controller'
+
 import router from "./router/index.js";
-const app = express()
-const port = 3000
+import { dbConnection } from "./db/index.js";
 
-
-// define behavior to process request
-// Ordering paths matter
-app.use(router)
-
+const app = express();
+const port = 3000;
+app.use(express.json());
+app.use(router);
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
+  console.log(`Example app listening on port ${port}`);
+});

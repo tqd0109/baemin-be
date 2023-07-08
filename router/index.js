@@ -1,14 +1,15 @@
-import { Router } from "express"
+import { Router } from "express";
 // Full URL
-import { randomCatHandler } from "../controller/randomCat.js"
+import { randomCatHandler } from "../controller/randomCat.js";
+import { menuByMerchant, readMerchant } from "../controller/readMerchant.js";
 
-const baseRouter = Router()
+const baseRouter = Router();
 
-baseRouter.get('/random-cat/c',randomCatHandler)
+baseRouter.get("/merchants", readMerchant);
+baseRouter.get("/merchant/:id/menu", menuByMerchant);
 // baseRouter.get('/random-quote/c',randomQuoteHandler)
 
-export default baseRouter
-
+export default baseRouter;
 
 // import { getPayment } from './../controller/payment'
 // import { Router } from "express"
@@ -21,4 +22,3 @@ export default baseRouter
 
 // baseRouter.use(paymentRouter)
 // export default baseRouter
-

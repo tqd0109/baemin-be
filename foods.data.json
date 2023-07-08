@@ -1,0 +1,97 @@
+[
+  {
+    "fId": "abc100",
+    "mId": "def100",
+    "name": "Canh ga chien nuoc mam",
+    "des": "Canh ga chien nuoc mam",
+    "price": "110.000 VND"
+  },
+
+  {
+    "fId": "abc101",
+    "mId": "def100",
+    "name": "Burget ga",
+    "des": "Burger ca",
+    "price": "120.000 VND"
+  },
+
+  {
+    "fId": "abc102",
+    "mId": "def100",
+    "name": "Coca",
+    "des": "Coca",
+    "price": "20.000 VND"
+  },
+
+  {
+    "fId": "abc103",
+    "mId": "def101",
+    "name": "Com ga size nho",
+    "des": "Com ga size nho",
+    "price": "30.000 VND"
+  },
+
+  {
+    "fId": "abc104",
+    "mId": "def101",
+    "name": "Com ga size vua",
+    "des": "Com ga size vua",
+    "price": "40.000 VND"
+  },
+
+  {
+    "fId": "abc105",
+    "mId": "def101",
+    "name": "Com ga size lon",
+    "des": "Com ga size lon",
+    "price": "65.000 VND"
+  },
+
+  {
+    "fId": "abc106",
+    "mId": "def102",
+    "name": "Tam",
+    "des": "Tam",
+    "price": "75.000 VND"
+  },
+
+  {
+    "fId": "abc107",
+    "mId": "def102",
+    "name": "Gam",
+    "des": "Gam",
+    "price": "85.000 VND"
+  },
+
+  {
+    "fId": "abc108",
+    "mId": "def102",
+    "name": "May",
+    "des": "May",
+    "price": "80.000 VND"
+  },
+
+  {
+    "fId": "abc109",
+    "mId": "def103",
+    "name": "Tra sua tran chau hoang kim",
+    "des": "Tra sua tran chau hoang kim",
+    "price": "60.000 VND"
+  },
+
+  {
+    "fId": "abc110",
+    "mId": "def103",
+    "name": "Tra sua hoa qua",
+    "des": "Tra sua hoa qua",
+    "price": "70.000 VND"
+  },
+
+  {
+    "fId": "abc110",
+    "mId": "def103",
+    "name": "Tra dao cam sa",
+    "des": "Tra dao cam sa",
+    "price": "55.000 VND"
+  }
+]
